@@ -1,151 +1,159 @@
 {
-  "name": "Starter Kit",
+  "name": "Lumos Help Center",
   "colors": {
     "light": {
-      "brand": "#F97316"
+      "brand": "#2563EB"
     },
     "dark": {
-      "brand": "#FDBA74"
+      "brand": "#60A5FA"
     }
   },
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
-        "icon": "book",
+        "tab": "Help Center",
+        "icon": "help-circle",
         "groups": [
           {
-            "group": "Start Here",
+            "group": "Getting Started",
             "icon": "rocket",
             "pages": [
               {
-                "title": "Introduction",
-                "path": "introduction",
-                "icon": "home"
+                "title": "What to Expect in Your First 90 Days",
+                "path": "getting-started/first-90-days",
+                "icon": "calendar"
               },
               {
-                "title": "Quickstart",
-                "path": "quickstart",
-                "icon": "zap"
-              },
-              {
-                "title": "Components",
-                "path": "components",
-                "icon": "code"
-              }
-            ]
-          },
-          {
-            "group": "Components",
-            "icon": "layers",
-            "pages": [
-              {
-                "title": "Images",
-                "path": "components/images",
-                "icon": "image"
-              },
-              {
-                "title": "Cards",
-                "path": "components/cards",
-                "icon": "square"
-              },
-              {
-                "title": "Code",
-                "path": "components/code",
-                "icon": "code"
-              },
-              {
-                "title": "Callouts",
-                "path": "components/callouts",
+                "title": "How We Communicate",
+                "path": "getting-started/how-we-communicate",
                 "icon": "message-square"
               },
               {
-                "title": "Steps",
-                "path": "components/steps",
-                "icon": "list-ordered"
+                "title": "Your Role vs. Our Role",
+                "path": "getting-started/your-role-vs-our-role",
+                "icon": "users"
               },
               {
-                "title": "Tabs",
-                "path": "components/tabs",
-                "icon": "columns"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "icon": "code",
-        "groups": [
-          {
-            "group": "Overview",
-            "icon": "file-text",
-            "pages": [
-              {
-                "title": "Authentication",
-                "path": "authentication",
-                "icon": "lock"
+                "title": "How to Review Your Messaging",
+                "path": "getting-started/how-to-review-messaging",
+                "icon": "file-text"
               }
             ]
           },
           {
-            "group": "Sample Endpoints",
-            "openapi": "openapi.yaml"
-          }
-        ]
-      },
-      {
-        "tab": "Help Center",
-        "icon": "help-circle",
-        "pages": [
-          {
-            "title": "Help Center",
-            "path": "help-center",
-            "icon": "home"
-          },
-          {
-            "group": "FAQs",
-            "icon": "help-circle",
-            "expandable": false,
+            "group": "Managing Your Campaigns",
+            "icon": "target",
             "pages": [
               {
-                "title": "Documentation Source",
-                "path": "help-center/faq/getting-started"
+                "title": "How to View Your Conversations",
+                "path": "managing-campaigns/view-conversations",
+                "icon": "inbox"
+              },
+              {
+                "title": "How to Respond to Leads",
+                "path": "managing-campaigns/respond-to-leads",
+                "icon": "send"
+              },
+              {
+                "title": "How to Add Team Members",
+                "path": "managing-campaigns/add-team-members",
+                "icon": "user-plus"
+              },
+              {
+                "title": "Campaign Pausing and Resuming",
+                "path": "managing-campaigns/pausing-and-resuming",
+                "icon": "pause"
+              }
+            ]
+          },
+          {
+            "group": "Understanding Your Metrics",
+            "icon": "bar-chart",
+            "pages": [
+              {
+                "title": "What Your Campaign Metrics Mean",
+                "path": "understanding-metrics/what-metrics-mean",
+                "icon": "activity"
+              },
+              {
+                "title": "Campaign Health Scores Explained",
+                "path": "understanding-metrics/health-scores",
+                "icon": "heart"
+              },
+              {
+                "title": "When to Expect Results",
+                "path": "understanding-metrics/when-to-expect-results",
+                "icon": "clock"
+              },
+              {
+                "title": "Why Reply Rates Vary",
+                "path": "understanding-metrics/why-reply-rates-vary",
+                "icon": "trending-up"
+              }
+            ]
+          },
+          {
+            "group": "Messaging and Copy",
+            "icon": "edit",
+            "pages": [
+              {
+                "title": "How We Write Your Messaging",
+                "path": "messaging-and-copy/how-we-write-messaging",
+                "icon": "pen-tool"
+              },
+              {
+                "title": "Giving Feedback on Messaging",
+                "path": "messaging-and-copy/giving-feedback",
+                "icon": "message-circle"
+              },
+              {
+                "title": "Why Our Messages Are So Short",
+                "path": "messaging-and-copy/why-messages-are-short",
+                "icon": "minus"
+              }
+            ]
+          },
+          {
+            "group": "Billing and Account",
+            "icon": "credit-card",
+            "pages": [
+              {
+                "title": "Billing FAQ",
+                "path": "billing-and-account/billing-faq",
+                "icon": "help-circle"
+              },
+              {
+                "title": "What's Included in Your Package",
+                "path": "billing-and-account/whats-included",
+                "icon": "package"
+              },
+              {
+                "title": "Add-Ons Explained",
+                "path": "billing-and-account/add-ons",
+                "icon": "plus-circle"
               }
             ]
           },
           {
             "group": "Troubleshooting",
             "icon": "alert-triangle",
-            "expandable": false,
             "pages": [
               {
-                "title": "Page Missing in Sidebar",
-                "path": "help-center/troubleshooting/install-error"
-              }
-            ]
-          },
-          {
-            "group": "Guides",
-            "icon": "book-open",
-            "expandable": false,
-            "pages": [
+                "title": "Low Connection Rate?",
+                "path": "troubleshooting/low-connection-rate",
+                "icon": "user-x"
+              },
               {
-                "title": "Create Your First Page",
-                "path": "help-center/guides/setup-project"
+                "title": "Low Reply Rate?",
+                "path": "troubleshooting/low-reply-rate",
+                "icon": "message-square"
+              },
+              {
+                "title": "LinkedIn Account Restricted",
+                "path": "troubleshooting/linkedin-restricted",
+                "icon": "shield"
               }
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Changelog",
-        "icon": "clock",
-        "pages": [
-          {
-            "title": "Changelog",
-            "path": "changelog",
-            "icon": "history"
           }
         ]
       }
