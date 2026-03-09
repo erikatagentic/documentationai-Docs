@@ -114,27 +114,6 @@
             ]
           },
           {
-            "group": "Billing and Account",
-            "icon": "credit-card",
-            "pages": [
-              {
-                "title": "Billing FAQ",
-                "path": "billing-and-account/billing-faq",
-                "icon": "help-circle"
-              },
-              {
-                "title": "What's Included in Your Package",
-                "path": "billing-and-account/whats-included",
-                "icon": "package"
-              },
-              {
-                "title": "Add-Ons Explained",
-                "path": "billing-and-account/add-ons",
-                "icon": "plus-circle"
-              }
-            ]
-          },
-          {
             "group": "Troubleshooting",
             "icon": "alert-triangle",
             "pages": [
