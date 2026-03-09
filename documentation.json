@@ -37,6 +37,11 @@
                 "title": "How to Review Your Messaging",
                 "path": "getting-started/how-to-review-messaging",
                 "icon": "file-text"
+              },
+              {
+                "title": "Best Practices for Following Up With Leads",
+                "path": "getting-started/following-up-with-leads",
+                "icon": "repeat"
               }
             ]
           },
@@ -63,6 +68,16 @@
                 "title": "Campaign Pausing and Resuming",
                 "path": "managing-campaigns/pausing-and-resuming",
                 "icon": "pause"
+              },
+              {
+                "title": "How Your Lead List Is Built",
+                "path": "managing-campaigns/how-lead-lists-are-built",
+                "icon": "list"
+              },
+              {
+                "title": "Adding a Second LinkedIn Profile",
+                "path": "managing-campaigns/adding-a-second-profile",
+                "icon": "user-plus"
               }
             ]
           },
@@ -114,6 +129,32 @@
             ]
           },
           {
+            "group": "LinkedIn Best Practices",
+            "icon": "book-open",
+            "pages": [
+              {
+                "title": "Daily Limits and Account Warmup",
+                "path": "linkedin-best-practices/daily-limits-and-warmup",
+                "icon": "shield"
+              },
+              {
+                "title": "Why Connection Notes Are Usually Blank",
+                "path": "linkedin-best-practices/blank-connection-notes",
+                "icon": "message-square"
+              },
+              {
+                "title": "How A/B Testing Works",
+                "path": "linkedin-best-practices/how-ab-testing-works",
+                "icon": "git-branch"
+              },
+              {
+                "title": "How We Protect Your LinkedIn Account",
+                "path": "linkedin-best-practices/account-safety",
+                "icon": "lock"
+              }
+            ]
+          },
+          {
             "group": "Troubleshooting",
             "icon": "alert-triangle",
             "pages": [
@@ -131,6 +172,11 @@
                 "title": "LinkedIn Account Restricted",
                 "path": "troubleshooting/linkedin-restricted",
                 "icon": "shield"
+              },
+              {
+                "title": "LinkedIn Account Disconnected",
+                "path": "troubleshooting/account-disconnected",
+                "icon": "wifi-off"
               }
             ]
           }
